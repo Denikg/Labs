@@ -1,0 +1,89 @@
+/* CSS design originally by @jofpin, tweaked by Colt Steele */
+@import url(https://fonts.googleapis.com/css?family=Raleway|Varela + Round|Coda);
+
+body {
+  background: #b1adad3d;
+  padding: 2.23em;
+}
+
+.title {
+  color: #000102;
+  font-family: "Arial";
+  text-align: center;
+}
+.user-profile {
+  margin: auto;
+  width: 30em;
+  height: 11em;
+  background: #fff;
+  border-radius: 0.3em;
+}
+
+.user-profile #fullname {
+  margin: auto;
+  margin-top: -4.4em;
+  margin-left: 5.8em;
+  color: #000000c7;
+  font-family: "Arial";
+  font-size: 1.53em;
+  font-weight: bold;
+}
+
+#username {
+  margin: auto;
+  display: inline-block;
+  margin-left: 10.43em;
+  font-family: "Arial";
+  color: #000000c7;
+  font-size: 0.87em;
+}
+
+.user-profile > .description {
+  margin: auto;
+  margin-top: 1.35em;
+  margin-right: 2em;
+  width: 22em;
+  font-family: "Arial";
+  color: #000000c7;
+  font-size: 0.87em;
+}
+
+.user-profile > img#avatar {
+  padding: 0.7em;
+  margin-left: 0.3em;
+  margin-top: 0.3em;
+  height: 6.23em;
+  width: 6.23em;
+  border-radius: 18em;
+}
+
+.footer {
+  margin: 3em auto;
+  height: 3.7em;
+  background: #008a7e;
+  text-align: center;
+  border-radius: 0 0 0.3em 0.3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.1s;
+}
+
+button {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 20px;
+  background: none;
+  outline: none;
+  border: 0;
+}
+#number {
+  color: white;
+}
+
+.footer:hover {
+  background: #00b4a5;
+}
+.container {
+  margin-top: 15%;
+}
