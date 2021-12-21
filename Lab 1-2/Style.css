@@ -1,0 +1,50 @@
+body{
+color:white;
+font-size: 20px;
+}
+
+.row{
+	display: flex;
+}
+
+.header{
+background-color:black;
+height: 300px ;
+margin-bottom: 10px;
+text-align: left;
+}
+
+.content{
+text-align: center;
+background-color: black;
+min-height: 450px;
+width: 59%;
+float:left;
+margin-right: 1%;
+}
+
+.sidebar{
+text-align: center;
+width:40%;
+float:left;
+height: 450px;
+background-color: black;
+}
+
+footer{
+text-align: center;
+background-color: black;
+height: 200px ;
+margin-top:10px;
+}
+.Svod{
+    margin-top: 35px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.Contact{
+    margin: 50px;
+    text-align: center;
+    float: right;
+    display: inline-block;
+}
